@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Html-Css-LoginForm</title>
+  <link rel="stylesheet" type="text/css" href="Style.css">    
+</head>
+    <body>
+        <div class="login-box">
+        <img src="loginbutton.png" class="loginbutton">
+           <h1>Login</h1>  
+               <form class="login_form" action="Success.html" method="post" name="form" onsubmit="return validated()">
+               <p>Username:</p>
+               <input type="text" name="username" placeholder="Enter Username">
+               <div id="username_error">Enter Valid Username</div> 
+               <p>Password:</p>
+               <input type="password" name="password" placeholder="Enter Password">
+               <div id="password_error">Enter Valid Password</div>
+               <input type="submit" name="submit" value="Login"> 
+               </form>
+        </div>
+        <script src="Valid.js"></script>
+    </body>
+</html>
